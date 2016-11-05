@@ -14,6 +14,7 @@
 		036CCE201DCDEDC3002BEAD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036CCE1F1DCDEDC3002BEAD7 /* Images.xcassets */; };
 		036CCE231DCDEDC3002BEAD7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036CCE211DCDEDC3002BEAD7 /* LaunchScreen.xib */; };
 		036CCE2F1DCDEDC3002BEAD7 /* AlcoolGasolinaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 036CCE2E1DCDEDC3002BEAD7 /* AlcoolGasolinaTests.m */; };
+		036CCE391DCE071A002BEAD7 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 036CCE381DCE071A002BEAD7 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		036CCE281DCDEDC3002BEAD7 /* AlcoolGasolinaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlcoolGasolinaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		036CCE2D1DCDEDC3002BEAD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		036CCE2E1DCDEDC3002BEAD7 /* AlcoolGasolinaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlcoolGasolinaTests.m; sourceTree = "<group>"; };
+		036CCE381DCE071A002BEAD7 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				036CCE391DCE071A002BEAD7 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		036CCE061DCDEDC3002BEAD7 = {
 			isa = PBXGroup;
 			children = (
+				036CCE381DCE071A002BEAD7 /* Social.framework */,
 				036CCE111DCDEDC3002BEAD7 /* AlcoolGasolina */,
 				036CCE2B1DCDEDC3002BEAD7 /* AlcoolGasolinaTests */,
 				036CCE101DCDEDC3002BEAD7 /* Products */,
